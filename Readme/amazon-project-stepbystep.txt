@@ -1,0 +1,54 @@
+scripts->amazon.js
+
+products.js 
+product elements HTML loop with products[] data
+and finally DOM.innerHTML nk insert lote tl
+
+Cartbutton addeventlistener
+Each Cart Quantity Update When clicking AddToCart button
+Total Cart Quantity
+
+--------------------------------------------------------------
+Module => Import Export Function
+
+Seperate Function addToCart,removeFromCart
+
+Move addToCart() ko cart.js 
+
+Checkout.js
+Checkout elements HTML loop with carts[] data
+and finally DOM.innerHTML nk insert lote tl
+
+utils formatCurrency()
+
+HTML link elements and radio selectors
+
+HTML remove cart when clicking delete link
+
+Saved the cart in localStorage
+
+---------------------------------------------------------------
+
+Use External Library ESM version dayjs,hello()
+
+Create deliveryOptions[] array
+in checkout.js we loop delivery HTML loop with deliveryOptions[] data
+and return HTML Code
+radio isChecked with cartItem.delieryOptionId==deliveryOptions.Id
+Generate Delivery Date on Cart
+updateDeliveryOption
+
+js-delivery-option"
+        data-product-id="${matchingProduct.id}"
+        data-delivery-option-id="${deliveryOption.id}
+
+deliveryOptionId
+function renderOrderSumaary -Regenrating HTML call the function at of the page
+Move orderSummary into its own file
+
+Payment Sections
+PaymentOrderSummary - Calculate ProductpriceCents
+Generate PaymentSummary ,Math.round
+Make Payment Summary
+
+
